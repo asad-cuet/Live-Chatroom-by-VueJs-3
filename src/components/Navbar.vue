@@ -2,7 +2,7 @@
 <div>
       <nav v-if="user">
        <div>
-        <p>Hei {{user.user}}</p>
+        <p>Hei {{user.name}}</p>
         <p class="email">Currently logged in as {{user.email}}</p>
       </div>
         <button @click="handleClick" class="button-danger">Logout</button>
@@ -16,7 +16,6 @@
   
 </template>
 <script>
-  import {ref} from 'vue'
   import useLogout from '../composables/useLogout'
   import getUser from '../composables/getUser'
   import {useRouter} from 'vue-router'

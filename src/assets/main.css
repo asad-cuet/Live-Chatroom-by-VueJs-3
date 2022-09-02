@@ -17,6 +17,11 @@ body {
    padding: 20px 0;
 }
 
+.welcome .left {
+      text-align: left;
+      padding: 20px 0;
+   }
+
 form {
       width:300px;
       margin: 20px auto;
@@ -96,5 +101,5 @@ textarea {
       border-radius: 20px;
       font-family: inherit;
       outline: none;
-      background-color: #baceca;
+      background-color: #ffffff;
 }
