@@ -4,13 +4,13 @@ import 'firebase/compat/auth'
 
 
 const firebaseConfig = {
-      apiKey: "AIzaSyCEcX358xVPs16zHg8HzgpnSV4RsNzqvZo",
-      authDomain: "st-project-807fd.firebaseapp.com",
-      projectId: "st-project-807fd",
-      storageBucket: "st-project-807fd.appspot.com",
-      messagingSenderId: "618323811160",
-      appId: "1:618323811160:web:b3e885cefb7467aa52232d"
-    };
+  apiKey: "AIzaSyAzfkC0NXI9I_3E44fXDSmIuQRirNrWzSc",
+  authDomain: "live-chatroom-42bc6.firebaseapp.com",
+  projectId: "live-chatroom-42bc6",
+  storageBucket: "live-chatroom-42bc6.appspot.com",
+  messagingSenderId: "1077564721748",
+  appId: "1:1077564721748:web:420a5ce38c725a52997bc1"
+};
 
  //init firebase
  firebase.initializeApp(firebaseConfig)   //firebaseConfig is const name from paste code

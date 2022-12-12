@@ -1,6 +1,5 @@
 <template>
   <div>
-      <div v-if="success" class="success">Sign up successfuly done</div>
       <form @submit.prevent="handleSubmit">
             <label for="">Name</label>
             <input type="text" v-model="name" placeholder="Name"/>
